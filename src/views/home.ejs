@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fake Instagram</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  </head>
+
+  <body>
+    <header>
+      <div class="container header">
+        <a href="/home">
+          <div id="logo">
+            <img src="/img/logo.png" />
+          </div>
+        </a>
+        <div class="busca">
+          <form>
+            <input type="search" class="search" placeholder="buscar usuarios" />
+          </form>
+        </div>
+        <nav>
+          <a href="/publicar">
+            <img
+              src="/img/icons/plus.svg"
+              alt="Adicionar Publicação"
+              title="Adicionar Publicação"
+            />
+          </a>
+          <a href="/home">
+            <img src="/img/icons/home.svg" />
+          </a>
+          <a href="">
+            <div class="avatar-content">
+              <img class="avatar" src="/img/avatar-example.png" />
+              <b>Wendel Cutrim</b>
+            </div>
+          </a>
+          <a href="/logout">
+            <i class="fa fa-power-off" style="font-size:18px; color: black;"></i>
+          </a>
+        </nav>
+      </div>
+    </header>
+    <main class="container content">
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <img class="avatar" src="/img/avatar-example.png" />
+            <b>Wendel Cutrim</b>
+          </div>
+          <img src="/img/icons/more-vertical.svg" />
+        </div>
+        <div class="card-img">
+          <img src="/img/publication_example.jpg" />
+        </div>
+        <div class="card-body">
+          <div class="card-itens">
+            <div class="likes">
+              <img src="/img/icons/heart.svg" />
+              <b>10 likes</b>
+            </div>
+            <b>Postado no dia: 20/20/2020</b>
+          </div>
+          <div class="card-img-description">
+            <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus aspernatur cum nisi ipsum saepe nemo magnam vitae ipsam nostrum reprehenderit, temporibus nihil corporis? Id, error! Consequuntur minus earum optio aut?
+            Similique error sint repellendus ad numquam? Veritatis tenetur vitae nobis itaque obcaecati praesentium eius, labore ullam repudiandae repellat dolore eum dolorem repellendus corporis. Voluptates quam illo impedit doloremque doloribus animi?
+            Architecto reiciendis veritatis dolorum laudantium labore fugit qui beatae natus molestias inventore cupiditate atque, aspernatur repellat temporibus esse sequi quisquam obcaecati provident voluptatibus vitae mollitia quibusdam omnis ipsam quod? Commodi.</span>
+          </div>
+          <div class="card-comments">
+            <p><b>Ian Moreira</b> Que incrivel!</p>
+          </div>
+        </div>
+        <form class="form-comments">
+          <input type="text" hidden name="postId" />
+          <input
+            type="text"
+            placeholder="Adicione um comentário..."
+            name="description"
+          />
+          <button type="submit">
+            <i class="fa fa-paper-plane" style="color: black; font-size: 18px;"></i>
+          </button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fake Instagram</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+
+  <body>
+    <header>
+      <div class="container header">
+        <div id="logo">
+          <a href="/home" >
+            <img src="/img/logo.png" />
+          </a>
+        </div>
+        <div class="busca">
+          <form>
+            <input type="search" class="search" placeholder="buscar usuarios" />
+          </form>
+        </div>
+        <nav>
+          <a href="/publicar">
+            <img
+              src="/img/icons/plus.svg"
+              alt="Adicionar Publicação"
+              title="Adicionar Publicação"
+            />
+          </a>
+          <a href="/home">
+            <img src="/img/icons/home.svg" />
+          </a>
+          <a href="">
+            <div class="avatar-content">
+              <img class="avatar" src="/img/avatar-example.png" />
+              <b>Wendel Cutrim</b>
+            </div>
+          </a>
+          <a href="/logout">
+            <i class="fa fa-power-off" style="font-size:18px; color: black;"></i>
+          </a>
+        </nav>
+      </div>
+    </header>
+    <main class="container content">
+      <section class="post card">
+        <h2>Criar publicação</h2>
+        <form enctype="multipart/form-data">
+          <h3>Texto da publicação:</h3>
+          <textarea name="content" cols="40" rows="10" placeholder="Insira um comentário"></textarea>
+          <p>Faça o upload da foto que deseja postar!</p>
+          <label for="photo">Selecione a foto</label>
+          <br />
+          <input type="file" name="photo" id="photo" />
+          <button type="submit" class="btn btn-send">Postar</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
