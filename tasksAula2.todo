@@ -1,0 +1,15 @@
+Atividades aula 1:
+    ✔ Configurar o Sequelize @done(22-07-14 21:20)
+    ✔ Instalar o dotenv e configurar @done(22-07-14 21:21)
+    ✔ Criar a migrations de usuários de acordo com o DER. @done(22-07-14 21:21)
+    ✔ Criar seeder de usuários para cadastrar 5 usuários. @done(22-07-18 15:09)
+    ☐ Criar model de usuários
+    
+Atividades aula 2 - Processo de cadastro e login completo:
+    ☐ No Controller de autenticação, realizar as seguintes implementações:
+        ☐ Controller para criar um usuário e salvar no banco. Obs: Não pode existir mais de 1 usuário com o mesmo email.
+        ☐ Controller para Realizar o login do usuário.
+        ☐ Implementação da session
+        ☐ Proteger as rotas: /home e /publicar para somente usuarios autenticados consigam acessar. Caso algum usuário tente acessar estas rotas e não estiver autenticado, deve ser redirecionar o para a página de login.
+        ☐ Lembrem-se de retornar para a view, erros que podem acontecer.
+        ☐ Configurar ejs da página inicial de de post para exibir o nome do usuário logado.
