@@ -4,8 +4,13 @@
     <title>Fake Instagram</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
 
   <body>
@@ -35,11 +40,14 @@
           <a href="">
             <div class="avatar-content">
               <img class="avatar" src="/img/avatar-example.png" />
-              <b>Wendel Cutrim</b>
+              <b><%=user.username%></b>
             </div>
           </a>
-          <a href="/logout">
-            <i class="fa fa-power-off" style="font-size:18px; color: black;"></i>
+          <a href="/login">
+            <i
+              class="fa fa-power-off"
+              style="font-size: 18px; color: black"
+            ></i>
           </a>
         </nav>
       </div>
@@ -65,9 +73,20 @@
             <b>Postado no dia: 20/20/2020</b>
           </div>
           <div class="card-img-description">
-            <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus aspernatur cum nisi ipsum saepe nemo magnam vitae ipsam nostrum reprehenderit, temporibus nihil corporis? Id, error! Consequuntur minus earum optio aut?
-            Similique error sint repellendus ad numquam? Veritatis tenetur vitae nobis itaque obcaecati praesentium eius, labore ullam repudiandae repellat dolore eum dolorem repellendus corporis. Voluptates quam illo impedit doloremque doloribus animi?
-            Architecto reiciendis veritatis dolorum laudantium labore fugit qui beatae natus molestias inventore cupiditate atque, aspernatur repellat temporibus esse sequi quisquam obcaecati provident voluptatibus vitae mollitia quibusdam omnis ipsam quod? Commodi.</span>
+            <span
+              >Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Delectus aspernatur cum nisi ipsum saepe nemo magnam vitae ipsam
+              nostrum reprehenderit, temporibus nihil corporis? Id, error!
+              Consequuntur minus earum optio aut? Similique error sint
+              repellendus ad numquam? Veritatis tenetur vitae nobis itaque
+              obcaecati praesentium eius, labore ullam repudiandae repellat
+              dolore eum dolorem repellendus corporis. Voluptates quam illo
+              impedit doloremque doloribus animi? Architecto reiciendis
+              veritatis dolorum laudantium labore fugit qui beatae natus
+              molestias inventore cupiditate atque, aspernatur repellat
+              temporibus esse sequi quisquam obcaecati provident voluptatibus
+              vitae mollitia quibusdam omnis ipsam quod? Commodi.</span
+            >
           </div>
           <div class="card-comments">
             <p><b>Ian Moreira</b> Que incrivel!</p>
@@ -81,7 +100,10 @@
             name="description"
           />
           <button type="submit">
-            <i class="fa fa-paper-plane" style="color: black; font-size: 18px;"></i>
+            <i
+              class="fa fa-paper-plane"
+              style="color: black; font-size: 18px"
+            ></i>
           </button>
         </form>
       </div>

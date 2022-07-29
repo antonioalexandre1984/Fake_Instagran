@@ -2,6 +2,7 @@ const express = require("express");
 const routes = require("./routes");
 const logger = require("morgan");
 const path = require("path");
+const session = require("express-session");
 
 const app = express();
 
@@ -13,6 +14,11 @@ app.use(logger("dev"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, "public")));
+app.use(session({
+    secret: "alexandre",
+    resave: false,
+    saveUninitialized: false,
+}));
 
 app.use("/", routes);
 

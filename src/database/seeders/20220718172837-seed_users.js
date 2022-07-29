@@ -11,8 +11,8 @@ module.exports = {
         username: `user${i}`,
         password: bcrypt.hashSync('123456', 10),
         email: `user${i}@mail.com`,
-        createdAt: new Date().toISOString(),
-        updatedAt: new Date().toISOString()
+        created_At: new Date().toISOString(),
+        updated_At: new Date().toISOString()
       }) // eslint-disable-line
     }
         await queryInterface.bulkInsert('users', users, {});  

@@ -3,11 +3,11 @@ Atividades aula 1:
     ✔ Instalar o dotenv e configurar @done(22-07-14 21:21)
     ✔ Criar a migrations de usuários de acordo com o DER. @done(22-07-14 21:21)
     ✔ Criar seeder de usuários para cadastrar 5 usuários. @done(22-07-18 15:09)
-    ☐ Criar model de usuários
+    ✔ Criar model de usuários @done(22-07-28 09:14)
     
 Atividades aula 2 - Processo de cadastro e login completo:
-    ☐ No Controller de autenticação, realizar as seguintes implementações:
-        ☐ Controller para criar um usuário e salvar no banco. Obs: Não pode existir mais de 1 usuário com o mesmo email.
+    ✔ No Controller de autenticação, realizar as seguintes implementações: @done(22-07-28 11:59)
+        ✔ Controller para criar um usuário e salvar no banco. Obs: Não pode existir mais de 1 usuário com o mesmo email. @done(22-07-28 11:59)
         ☐ Controller para Realizar o login do usuário.
         ☐ Implementação da session
         ☐ Proteger as rotas: /home e /publicar para somente usuarios autenticados consigam acessar. Caso algum usuário tente acessar estas rotas e não estiver autenticado, deve ser redirecionar o para a página de login.

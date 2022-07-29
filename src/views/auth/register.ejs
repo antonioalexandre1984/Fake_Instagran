@@ -13,6 +13,10 @@
         <p>Cadastre-se para ver fotos dos seus amigos</p>
       </div>
       <form class="form-auth card" action="/registro" method="POST">
+        <% if (typeof error !== "undefined") { %>
+          <h3 class="error"><%=error%></h3>
+        <% } %>
+          </div>
         <div id="logo">
           <img src="img/logo.png" alt="" />
         </div>
